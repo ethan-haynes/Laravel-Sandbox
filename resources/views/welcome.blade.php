@@ -21,6 +21,15 @@
                 font-family: 'Lato';
             }
 
+            li {
+                list-style-type: none;
+            }
+
+            hr {
+                margin-left: 5em;
+                margin-right: 2em;
+            }
+
             .container {
                 text-align: center;
                 display: table-cell;
@@ -59,13 +68,17 @@
                 margin-left: 2em;
             }
 
-            li {
-                list-style-type: none;
+            .v-line {
+                position: absolute;
+                height: 100%;
+                width: 1px;
+                background-color: red;
+                z-index: -1;
             }
 
-            hr {
-                margin-left: 5em;
-                margin-right: 2em;
+            .article-title {
+                font-size: 30px;
+                margin: 0 auto;
             }
 
         </style>
@@ -81,13 +94,23 @@
                             <hr>
                             <li>
                                 <div class="row">
-                                    <div class="col-xs-4 col-md-2 circle"></div>
+                                    <div class="row">
+                                        <div class="col-xs-2 col-md-1"></div>
+                                        <h2 class="col-xs-10 col-md-9 article-title text-left">words</h2>
+                                    </div>
+                                    <div class="col-xs-4 col-md-2 circle">
+                                        <div class="v-line"></div>
+                                    </div>
                                     <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
                                 </div>
                             </li>
                             <hr>
                             <li>
                                 <div class="row">
+                                    <div class="row">
+                                        <div class="col-xs-2 col-md-1"></div>
+                                        <h2 class="col-xs-10 col-md-9 article-title text-left">words</h2>
+                                    </div>
                                     <div class="col-xs-4 col-md-2 circle"></div>
                                     <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
                                 </div>
