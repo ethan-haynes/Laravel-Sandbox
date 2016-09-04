@@ -33,7 +33,7 @@
             }
 
             .inner {
-                width: 33em;
+
                 display: inline-block;
             }
 
@@ -45,6 +45,27 @@
             .line {
                 background-color: lightgray;
                 height: 1px;
+                width: 30em;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .circle {
+                border-radius: 10em;
+                height: 2em;
+                width: 2em;
+                background-color: lightgrey;
+                margin-left: 2em;
+            }
+
+            li {
+                list-style-type: none;
+            }
+
+            hr {
+                margin-left: 5em;
+                margin-right: 2em;
             }
 
         </style>
@@ -52,16 +73,29 @@
     <body>
         <div class="row">
 
-        <div class="col-md-3"></div>
-            <div class="col-md-6 container">
+        <div class="col-md-2"></div>
+            <div class="col-md-8 container">
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
-                    <span class="col-md-12 line"> </span>
-                    <div class="inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
-                    <span class="col-md-12 line"> </span>
+                        <ul>
+                            <hr>
+                            <li>
+                                <div class="row">
+                                    <div class="col-xs-4 col-md-2 circle"></div>
+                                    <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
+                                </div>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="row">
+                                    <div class="col-xs-4 col-md-2 circle"></div>
+                                    <div class="col-xs-8 col-md-10 inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
+                                </div>
+                            </li>
+                        </ul>
                 </div>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
         </div>
     </body>
 </html>
