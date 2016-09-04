@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>P1</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title">
@@ -34,16 +34,19 @@
 
             .inner {
                 width: 33em;
+                display: inline-block;
             }
 
             .title {
                 font-size: 96px;
+                color: lightblue;
             }
 
-            .box {
+            .line {
                 background-color: lightgray;
-                height: 3em;
+                height: 1px;
             }
+
         </style>
     </head>
     <body>
@@ -53,8 +56,9 @@
             <div class="col-md-6 container">
                 <div class="content">
                     <div class="title">Ethan Haynes</div>
-                    <span class="col-md-12 box"> </span>
+                    <span class="col-md-12 line"> </span>
                     <div class="inner">ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes ASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynesASsa ithsalkd nasjdn sjASsa ithsalkd nasjdn sjdna askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASsa ithsa askjdb sakjd ak ynesdna askjdb sakjsalkd nasjdn sjASalkd nasd ak ynes</div>
+                    <span class="col-md-12 line"> </span>
                 </div>
             </div>
             <div class="col-md-3"></div>
