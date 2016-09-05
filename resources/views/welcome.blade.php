@@ -44,6 +44,8 @@
             .inner {
 
                 display: inline-block;
+                text-align: justify;
+                text-justify: inter-word;
             }
 
             .title {
@@ -54,7 +56,7 @@
             .line {
                 background-color: lightgray;
                 height: 1px;
-                width: 30em;
+                width: 25em;
                 position: relative;
                 left: 50%;
                 transform: translateX(-50%);
