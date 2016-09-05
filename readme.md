@@ -1,16 +1,16 @@
 # Title
 P1
-# URL
+## URL
 TODO
-# Description
+## Description
 This is a single page website using the Laravel PHP Framework
-# Link to demo
+## Link to demo
 TODO
-# Usage
+## Usage
 TODO
-# Dependencies
+## Dependencies
 Frameworks: Bootstrap, Laravel
 Dependency Management: NPM, Composer
 
 ## License
-[MIT license](http://opensource.org/licenses/MIT).
+[MIT](http://opensource.org/licenses/MIT).
